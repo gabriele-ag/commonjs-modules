@@ -4,7 +4,7 @@
   "description": "Progetto commonjs-modules",
   "main": "names.js",
   "scripts": {
-    "dev": "node app.js"
+    "dev": "node --watch app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/gabriele-ag/commonjs-modules/issues"
   },
-  "homepage": "https://github.com/gabriele-ag/commonjs-modules#readme"
+  "homepage": "https://github.com/gabriele-ag/commonjs-modules#readme",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
 }
